@@ -1,0 +1,20 @@
+{
+  "name": "oop-express-social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cimorexave/oop-express-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cimorexave/oop-express-social/issues"
+  },
+  "homepage": "https://github.com/Cimorexave/oop-express-social#readme"
+}
