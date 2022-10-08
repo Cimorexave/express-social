@@ -18,7 +18,11 @@ const connectToDatabase = async () => {
   const connectionResult = await mongoose.connect(uri);
   console.log(connectionResult);
 };
-connectToDatabase();
+try {
+  connectToDatabase();
+} catch(err) {
+  console.log(err)
+}
 
 //index guide
 app.get("/", (req: express.Request, res: express.Response ) => {
