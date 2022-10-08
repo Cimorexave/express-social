@@ -3,13 +3,18 @@
 import * as express from "express";
 const router = express.Router();
 
+router.get("/login", (req: express.Request, res: express.Response) => {
+    res.json({
+        msg: "login using username and password"
+    })
+} )
 router.post("/login", (req: express.Request, res: express.Response) => {
     //check to see if there are login info in the body
     if (!req.body) {
         res.json({
             success: false,
             msg: "wrong informantion"
-        });
+        }); 
         //saving login failed login attempt
     }
     //destructing username and password from the body
